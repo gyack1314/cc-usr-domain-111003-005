@@ -1,0 +1,9 @@
+合成业务文书
+正式条款
+资料编号：T0
+
+issuer："HB招标中心"
+effective："2026-10-20T09:00:00+08:00"
+clauses：{"delivery": "60天", "warranty": "12个月", "acceptance": "现场验收", "currency": "CNY"}
+
+本文件为本地业务资料副本，效力依业务规程认定。

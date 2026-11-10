@@ -1,0 +1,147 @@
+[
+  {
+    "id": "T0",
+    "category": "招标",
+    "title": "正式条款",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-10-20T09:00:00+08:00",
+      "clauses": {
+        "delivery": "60天",
+        "warranty": "12个月",
+        "acceptance": "现场验收",
+        "currency": "CNY"
+      }
+    }
+  },
+  {
+    "id": "A1",
+    "category": "补遗",
+    "title": "交期补遗",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-08T09:00:00+08:00",
+      "replaces": {
+        "T0.delivery": "45天"
+      },
+      "attachments": []
+    }
+  },
+  {
+    "id": "A2",
+    "category": "补遗",
+    "title": "质保修订",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-09T09:00:00+08:00",
+      "replaces": {
+        "T0.warranty": "24个月"
+      },
+      "attachments": []
+    }
+  },
+  {
+    "id": "A3",
+    "category": "补遗",
+    "title": "报价附件更正",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-09T10:00:00+08:00",
+      "replaces": {
+        "ANN-1": "ANN-2"
+      },
+      "clauses": {}
+    }
+  },
+  {
+    "id": "ANN-2",
+    "category": "附件",
+    "title": "新报价附件",
+    "revision": 1,
+    "fields": {
+      "delivery": "45天",
+      "warranty": "24个月",
+      "currency": "CNY"
+    }
+  },
+  {
+    "id": "A4",
+    "category": "补遗",
+    "title": "验收变更",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-09T11:00:00+08:00",
+      "replaces": {
+        "T0.acceptance": "远程验收"
+      }
+    }
+  },
+  {
+    "id": "W4",
+    "category": "撤回",
+    "title": "验收补遗撤回",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "target": "A4",
+      "effective": "2026-11-10T08:00:00+08:00"
+    }
+  },
+  {
+    "id": "Q1",
+    "category": "问答",
+    "title": "供应商交期答复",
+    "revision": 1,
+    "fields": {
+      "issuer": "供货商助理",
+      "sealed": false,
+      "clauses": {
+        "delivery": "30天"
+      }
+    }
+  },
+  {
+    "id": "A5",
+    "category": "补遗",
+    "title": "后续币种修订",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-11T00:00:00+08:00",
+      "replaces": {
+        "T0.currency": "USD"
+      }
+    }
+  },
+  {
+    "id": "A6",
+    "category": "补遗",
+    "title": "质保附件说明甲",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-10T09:00:00+08:00",
+      "replaces": {
+        "A2.warranty": "18个月"
+      }
+    }
+  },
+  {
+    "id": "A7",
+    "category": "补遗",
+    "title": "质保附件说明乙",
+    "revision": 1,
+    "fields": {
+      "issuer": "HB招标中心",
+      "effective": "2026-11-10T09:00:00+08:00",
+      "replaces": {
+        "A2.warranty": "30个月"
+      }
+    }
+  }
+]
