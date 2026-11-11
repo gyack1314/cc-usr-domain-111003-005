@@ -1,0 +1,14 @@
+{
+  "category": "补遗",
+  "fields": {
+    "clauses": {},
+    "effective": "2026-11-09T10:00:00+08:00",
+    "issuer": "HB招标中心",
+    "replaces": {
+      "ANN-1": "ANN-2"
+    }
+  },
+  "id": "A3",
+  "revision": 1,
+  "title": "报价附件更正"
+}

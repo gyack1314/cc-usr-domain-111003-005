@@ -1,0 +1,47 @@
+[
+  {
+    "path": "appendix.revised.unsigned.csv",
+    "sha256": "a64c74d356f98280456bf02fcced069d3e618c484ed872aa649273c43aaf7844",
+    "size": 57
+  },
+  {
+    "path": "determination.json",
+    "sha256": "100aaf7833deaf24b984fe769f09d91d400eb2041a1828c3bb42168002cc08aa",
+    "size": 15237
+  },
+  {
+    "path": "response.revised.unsigned.json",
+    "sha256": "e0c193997d0e260aee7b1df5e4ae406c054012d62f4f14a1547cfb8ec25fe848",
+    "size": 780
+  },
+  {
+    "path": "revision-log.json",
+    "sha256": "cb6bf0b56d3f12bfeb6aa43fa9bad74d8e9d25b6b79e980cd3b405183ac16bba",
+    "size": 4304
+  },
+  {
+    "path": "修订记录.md",
+    "sha256": "6a246593420ee74c94a846edf207ffbb0abc086906c3f48433221be56d4cc708",
+    "size": 510
+  },
+  {
+    "path": "响应修订副本.未签章.md",
+    "sha256": "06c76907834c6564e2d7ba4dae52f347a60848286b8c352bed104f035b732589",
+    "size": 1724
+  },
+  {
+    "path": "处理依据与复查方法.md",
+    "sha256": "664c315fa8ddc8b33cbd99245d9bf7b516c760dfdb88ce7b9b0ff1ea9e4daf10",
+    "size": 8022
+  },
+  {
+    "path": "有效要求与来源链.md",
+    "sha256": "3e178a04e3584e1e6cf61d3b78adf1599f3af8f5c26e29800bd7cd5c08cf81cc",
+    "size": 8256
+  },
+  {
+    "path": "来源链.csv",
+    "sha256": "355aa9a577bdeebd016851037607c7dee79af28781c38e70957b92eb3cc15221",
+    "size": 1804
+  }
+]

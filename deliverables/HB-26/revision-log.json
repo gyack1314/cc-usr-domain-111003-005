@@ -1,0 +1,143 @@
+{
+  "attachment_pending_marks": [
+    {
+      "column": "warranty",
+      "frozen_value": "24个月",
+      "mark": "【待负责人确认·阻止封版】附件 warranty 与正文同受 R7 冲突阻止，数值维持 24个月，裁决后须同步换版",
+      "source_attachment_ref": "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f"
+    }
+  ],
+  "attachment_revision": {
+    "after_attachment_ref": "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+    "after_row": {
+      "currency": "CNY",
+      "delivery": "45天",
+      "id": "ANN-2",
+      "warranty": "24个月"
+    },
+    "before_row": {
+      "currency": "CNY",
+      "delivery": "60天",
+      "id": "ANN-1",
+      "warranty": "12个月"
+    },
+    "domain_differences": {
+      "delivery": {
+        "after": "45天",
+        "before": "60天"
+      },
+      "warranty": {
+        "after": "24个月",
+        "before": "12个月"
+      }
+    },
+    "file": "materials/appendix.csv"
+  },
+  "basis": {
+    "determination": "state/hb26/analysis/determination.json",
+    "evidence": "evidence/hb26/evidence.json（浏览器逐页取证）",
+    "policy": "materials/policy.md"
+  },
+  "body_revision": {
+    "after": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "45天",
+      "warranty": "24个月"
+    },
+    "attachment_change": {
+      "after": "ANN-2",
+      "before": "ANN-1",
+      "by_ref": "A3@c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+      "note": "A3 仅明确指向 ANN-1→ANN-2，不覆盖其他材料（R5/R6）"
+    },
+    "before": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "60天",
+      "warranty": "12个月"
+    },
+    "domain_differences": {
+      "delivery": {
+        "after": "45天",
+        "before": "60天"
+      },
+      "warranty": {
+        "after": "24个月",
+        "before": "12个月"
+      }
+    },
+    "file": "materials/response.json",
+    "per_field_source_chain": [
+      {
+        "field": "delivery",
+        "source_chain": [
+          "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+          "A1@d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad"
+        ],
+        "status": "CONFIRMED",
+        "value": "45天"
+      },
+      {
+        "field": "warranty",
+        "source_chain": [
+          "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+          "A2@63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b"
+        ],
+        "status": "UNCONFIRMED",
+        "value": "24个月"
+      },
+      {
+        "field": "acceptance",
+        "source_chain": [
+          "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f"
+        ],
+        "status": "CONFIRMED",
+        "value": "现场验收"
+      },
+      {
+        "field": "currency",
+        "source_chain": [
+          "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f"
+        ],
+        "status": "CONFIRMED",
+        "value": "CNY"
+      }
+    ]
+  },
+  "pending_marks": [
+    {
+      "block_locations": [
+        "技术响应正文 warranty 字段（门户草稿/修订后响应副本）",
+        "报价附件 warranty 列（修订后附件副本）"
+      ],
+      "conflict": {
+        "warranty": {
+          "A6": "18个月",
+          "A7": "30个月"
+        }
+      },
+      "field": "warranty",
+      "frozen_value": "24个月",
+      "mark": "【待负责人确认·阻止封版】warranty 存在同权限未决冲突，暂冻结为 24个月，禁止在负责人裁决前签章"
+    }
+  ],
+  "project": "HB-26",
+  "quarantine_not_applied": [
+    {
+      "id": "A5",
+      "reason": "生效时点 2026-11-11T00:00:00+08:00 晚于封版截止 2026-11-10T12:00:00+08:00（R2）",
+      "reference": "A5@51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e"
+    },
+    {
+      "id": "Q1",
+      "reason": "发文单位 供货商助理 非 HB招标中心；未盖章问答不产生替代效力（R1）",
+      "reference": "Q1@c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b"
+    }
+  ],
+  "seal": {
+    "blocked": true,
+    "rule": "R8 禁止自动签章或投递；本副本仅供负责人最终签章前审阅",
+    "signed": false
+  }
+}

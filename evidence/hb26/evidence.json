@@ -1,0 +1,255 @@
+{
+  "base_url": "http://127.0.0.1:8765",
+  "catalog_pages": [
+    {
+      "count_text": "共 11 份资料",
+      "page": 1,
+      "row_count": 5
+    },
+    {
+      "count_text": "共 11 份资料",
+      "page": 2,
+      "row_count": 5
+    },
+    {
+      "count_text": "共 11 份资料",
+      "page": 3,
+      "row_count": 1
+    }
+  ],
+  "records": [
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A1",
+      "document_path": "documents/A1/A1.txt",
+      "document_sha256": "f13572316b48baf8521f2502d9cd53b06924380619767b87f90ff80188679b96",
+      "fields": {
+        "attachments": [],
+        "effective": "2026-11-08T09:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "T0.delivery": "45天"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-08T09:00:00+08:00\",\n  \"replaces\": {\n    \"T0.delivery\": \"45天\"\n  },\n  \"attachments\": []\n}",
+      "id": "A1",
+      "record_json_path": "attachments/A1/A1.json",
+      "record_json_sha256": "d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad",
+      "record_json_size": 258,
+      "reference": "A1@d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad",
+      "revision": 1,
+      "title": "交期补遗"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A2",
+      "document_path": "documents/A2/A2.txt",
+      "document_sha256": "05c59ab8c7bf78fbf544608e18a7b77b09969a3391818a889c9322f1a2ed3fde",
+      "fields": {
+        "attachments": [],
+        "effective": "2026-11-09T09:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "T0.warranty": "24个月"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-09T09:00:00+08:00\",\n  \"replaces\": {\n    \"T0.warranty\": \"24个月\"\n  },\n  \"attachments\": []\n}",
+      "id": "A2",
+      "record_json_path": "attachments/A2/A2.json",
+      "record_json_sha256": "63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b",
+      "record_json_size": 261,
+      "reference": "A2@63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b",
+      "revision": 1,
+      "title": "质保修订"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A3",
+      "document_path": "documents/A3/A3.txt",
+      "document_sha256": "4dc1ba5b85cf9086bc13e080f3866a33b7b1e22f5b0362bd7c277e4873d8d5ed",
+      "fields": {
+        "clauses": {},
+        "effective": "2026-11-09T10:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "ANN-1": "ANN-2"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-09T10:00:00+08:00\",\n  \"replaces\": {\n    \"ANN-1\": \"ANN-2\"\n  },\n  \"clauses\": {}\n}",
+      "id": "A3",
+      "record_json_path": "attachments/A3/A3.json",
+      "record_json_sha256": "c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+      "record_json_size": 254,
+      "reference": "A3@c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+      "revision": 1,
+      "title": "报价附件更正"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A4",
+      "document_path": "documents/A4/A4.txt",
+      "document_sha256": "239a2c8c110794152b2123e734b932be6217de2060fc5b36c71d0e92d540a091",
+      "fields": {
+        "effective": "2026-11-09T11:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "T0.acceptance": "远程验收"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-09T11:00:00+08:00\",\n  \"replaces\": {\n    \"T0.acceptance\": \"远程验收\"\n  }\n}",
+      "id": "A4",
+      "record_json_path": "attachments/A4/A4.json",
+      "record_json_sha256": "1856c8220764d32179a3cf30521afcc2d49ffae3271e88f55aee11a565c7647d",
+      "record_json_size": 244,
+      "reference": "A4@1856c8220764d32179a3cf30521afcc2d49ffae3271e88f55aee11a565c7647d",
+      "revision": 1,
+      "title": "验收变更"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A5",
+      "document_path": "documents/A5/A5.txt",
+      "document_sha256": "08fd2edf01c8be0225c86b419c2e44838896012eeb77ab2bc8d0f6769df29884",
+      "fields": {
+        "effective": "2026-11-11T00:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "T0.currency": "USD"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-11T00:00:00+08:00\",\n  \"replaces\": {\n    \"T0.currency\": \"USD\"\n  }\n}",
+      "id": "A5",
+      "record_json_path": "attachments/A5/A5.json",
+      "record_json_sha256": "51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e",
+      "record_json_size": 239,
+      "reference": "A5@51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e",
+      "revision": 1,
+      "title": "后续币种修订"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A6",
+      "document_path": "documents/A6/A6.txt",
+      "document_sha256": "5af93274dbe3d1782e2b7472e1ddd1871f2fc17deb4086299291e5fb311deca3",
+      "fields": {
+        "effective": "2026-11-10T09:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "A2.warranty": "18个月"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-10T09:00:00+08:00\",\n  \"replaces\": {\n    \"A2.warranty\": \"18个月\"\n  }\n}",
+      "id": "A6",
+      "record_json_path": "attachments/A6/A6.json",
+      "record_json_sha256": "3fd7a9d89bc1cfde5d71887f4fea0e9e3588724856899fcc7b026f96057d0600",
+      "record_json_size": 247,
+      "reference": "A6@3fd7a9d89bc1cfde5d71887f4fea0e9e3588724856899fcc7b026f96057d0600",
+      "revision": 1,
+      "title": "质保附件说明甲"
+    },
+    {
+      "category": "补遗",
+      "detail_url": "http://127.0.0.1:8765/record/A7",
+      "document_path": "documents/A7/A7.txt",
+      "document_sha256": "6f99eb51146e007b16edbabbf8ddd30f5932d4956213e5436cb71fe1a4834ba6",
+      "fields": {
+        "effective": "2026-11-10T09:00:00+08:00",
+        "issuer": "HB招标中心",
+        "replaces": {
+          "A2.warranty": "30个月"
+        }
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-11-10T09:00:00+08:00\",\n  \"replaces\": {\n    \"A2.warranty\": \"30个月\"\n  }\n}",
+      "id": "A7",
+      "record_json_path": "attachments/A7/A7.json",
+      "record_json_sha256": "181c747a840277423ae1e276ebfe39b7f07188cb0d37bdcc918d17272d429716",
+      "record_json_size": 247,
+      "reference": "A7@181c747a840277423ae1e276ebfe39b7f07188cb0d37bdcc918d17272d429716",
+      "revision": 1,
+      "title": "质保附件说明乙"
+    },
+    {
+      "category": "附件",
+      "detail_url": "http://127.0.0.1:8765/record/ANN-2",
+      "document_path": "documents/ANN-2/ANN-2.txt",
+      "document_sha256": "cd0fe42911c932e492039e9d1c691560437715e3edca19e8af37bf27c263e872",
+      "fields": {
+        "currency": "CNY",
+        "delivery": "45天",
+        "warranty": "24个月"
+      },
+      "fields_seen_on_page": "{\n  \"delivery\": \"45天\",\n  \"warranty\": \"24个月\",\n  \"currency\": \"CNY\"\n}",
+      "id": "ANN-2",
+      "record_json_path": "attachments/ANN-2/ANN-2.json",
+      "record_json_sha256": "43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+      "record_json_size": 185,
+      "reference": "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+      "revision": 1,
+      "title": "新报价附件"
+    },
+    {
+      "category": "问答",
+      "detail_url": "http://127.0.0.1:8765/record/Q1",
+      "document_path": "documents/Q1/Q1.txt",
+      "document_sha256": "a56d4398bcff13eea4aabbe182fc1e4ded3fd92d1289f6496e227f4dbaf8fd82",
+      "fields": {
+        "clauses": {
+          "delivery": "30天"
+        },
+        "issuer": "供货商助理",
+        "sealed": false
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"供货商助理\",\n  \"sealed\": false,\n  \"clauses\": {\n    \"delivery\": \"30天\"\n  }\n}",
+      "id": "Q1",
+      "record_json_path": "attachments/Q1/Q1.json",
+      "record_json_sha256": "c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b",
+      "record_json_size": 216,
+      "reference": "Q1@c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b",
+      "revision": 1,
+      "title": "供应商交期答复"
+    },
+    {
+      "category": "招标",
+      "detail_url": "http://127.0.0.1:8765/record/T0",
+      "document_path": "documents/T0/T0.txt",
+      "document_sha256": "14bd366e6a560ceab74f6e29239244ec4542721342dd885657ce8addd7daa07b",
+      "fields": {
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "60天",
+          "warranty": "12个月"
+        },
+        "effective": "2026-10-20T09:00:00+08:00",
+        "issuer": "HB招标中心"
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"effective\": \"2026-10-20T09:00:00+08:00\",\n  \"clauses\": {\n    \"delivery\": \"60天\",\n    \"warranty\": \"12个月\",\n    \"acceptance\": \"现场验收\",\n    \"currency\": \"CNY\"\n  }\n}",
+      "id": "T0",
+      "record_json_path": "attachments/T0/T0.json",
+      "record_json_sha256": "40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+      "record_json_size": 322,
+      "reference": "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+      "revision": 1,
+      "title": "正式条款"
+    },
+    {
+      "category": "撤回",
+      "detail_url": "http://127.0.0.1:8765/record/W4",
+      "document_path": "documents/W4/W4.txt",
+      "document_sha256": "1f490d122b6e7cc61e5a18ecff7e907f462e4a7c2a20fc48260592a5e93e1c57",
+      "fields": {
+        "effective": "2026-11-10T08:00:00+08:00",
+        "issuer": "HB招标中心",
+        "target": "A4"
+      },
+      "fields_seen_on_page": "{\n  \"issuer\": \"HB招标中心\",\n  \"target\": \"A4\",\n  \"effective\": \"2026-11-10T08:00:00+08:00\"\n}",
+      "id": "W4",
+      "record_json_path": "attachments/W4/W4.json",
+      "record_json_sha256": "54da07ed85b2f2cfc00ea4705bda181cc60b6a235ecc8b754a0eb717356ebd5a",
+      "record_json_size": 207,
+      "reference": "W4@54da07ed85b2f2cfc00ea4705bda181cc60b6a235ecc8b754a0eb717356ebd5a",
+      "revision": 1,
+      "title": "验收补遗撤回"
+    }
+  ]
+}

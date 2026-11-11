@@ -1,0 +1,13 @@
+{
+  "category": "问答",
+  "fields": {
+    "clauses": {
+      "delivery": "30天"
+    },
+    "issuer": "供货商助理",
+    "sealed": false
+  },
+  "id": "Q1",
+  "revision": 1,
+  "title": "供应商交期答复"
+}

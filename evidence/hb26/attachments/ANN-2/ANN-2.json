@@ -1,0 +1,11 @@
+{
+  "category": "附件",
+  "fields": {
+    "currency": "CNY",
+    "delivery": "45天",
+    "warranty": "24个月"
+  },
+  "id": "ANN-2",
+  "revision": 1,
+  "title": "新报价附件"
+}

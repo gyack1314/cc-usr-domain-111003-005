@@ -1,0 +1,7 @@
+{
+  "project": "HB-26",
+  "seal_cutoff": "2026-11-10T12:00:00+08:00",
+  "authorized_issuer": "HB招标中心",
+  "source_policy": "materials/policy.md",
+  "rules_note": "按生效时点与明确替代关系处理；不按上传/下载顺序或文件修改时间；撤回只作用于明确目标；附件独立编号；同权限无取代关系冲突保留人工裁决；禁止自动签章投递"
+}

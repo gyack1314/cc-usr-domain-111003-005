@@ -1,0 +1,16 @@
+{
+  "category": "招标",
+  "fields": {
+    "clauses": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "60天",
+      "warranty": "12个月"
+    },
+    "effective": "2026-10-20T09:00:00+08:00",
+    "issuer": "HB招标中心"
+  },
+  "id": "T0",
+  "revision": 1,
+  "title": "正式条款"
+}

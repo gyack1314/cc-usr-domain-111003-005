@@ -1,0 +1,20 @@
+{
+  "acceptance": "现场验收",
+  "attachment": "ANN-2",
+  "currency": "CNY",
+  "delivery": "45天",
+  "pending_confirmation": [
+    "【待负责人确认·阻止封版】warranty 存在同权限未决冲突，暂冻结为 24个月，禁止在负责人裁决前签章"
+  ],
+  "project": "HB-26",
+  "seal_status": "BLOCKED",
+  "signed": false,
+  "source_references": [
+    "A1@d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad",
+    "A2@63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b",
+    "A3@c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+    "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+    "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f"
+  ],
+  "warranty": "24个月"
+}

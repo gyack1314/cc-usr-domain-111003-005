@@ -1,0 +1,22 @@
+[
+  {
+    "path": "appendix.csv",
+    "sha256": "dd07266630577c6cbd32abdd3efd7d67bb827d6be9b28759237ee82105b150e6",
+    "size": 55
+  },
+  {
+    "path": "inventory.md",
+    "sha256": "76984791c9f8ecee7d34ef874ea1a2da22f10fa6f15b126f78bb32ca27020dc1",
+    "size": 108
+  },
+  {
+    "path": "policy.md",
+    "sha256": "bbc927312ff25b1adabf11f37572c405df278397b355c9f7156ea1bb5a1903ac",
+    "size": 414
+  },
+  {
+    "path": "response.json",
+    "sha256": "d768197b85567d73424f0eb15fa4bd84c7aa3f51f649f254b7e677134c4850a3",
+    "size": 171
+  }
+]

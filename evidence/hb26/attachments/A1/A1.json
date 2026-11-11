@@ -1,0 +1,14 @@
+{
+  "category": "补遗",
+  "fields": {
+    "attachments": [],
+    "effective": "2026-11-08T09:00:00+08:00",
+    "issuer": "HB招标中心",
+    "replaces": {
+      "T0.delivery": "45天"
+    }
+  },
+  "id": "A1",
+  "revision": 1,
+  "title": "交期补遗"
+}

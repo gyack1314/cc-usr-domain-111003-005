@@ -1,0 +1,452 @@
+{
+  "attachment": {
+    "active_attachment": "ANN-2",
+    "decisions": [
+      {
+        "by": "A3",
+        "note": "仅更换明确指向的附件；正文其他附件不被覆盖（R5/R6）",
+        "replaces_attachment": "ANN-1",
+        "valid": true,
+        "with_attachment": "ANN-2"
+      }
+    ],
+    "superseded": [
+      "ANN-1"
+    ]
+  },
+  "authorized_issuer": "HB招标中心",
+  "cross_check": [
+    {
+      "attachment": "ANN-2",
+      "attachment_value": "45天",
+      "body_value": "45天",
+      "clause": "delivery",
+      "note": "正文与有效附件一致",
+      "status": "MATCH"
+    },
+    {
+      "attachment": "ANN-2",
+      "attachment_value": "24个月",
+      "body_value": "24个月",
+      "clause": "warranty",
+      "note": "R7 未决冲突：正文冻结为最后有效口径 24个月（附件同为 24个月，数值相同不代表冲突已解）；A6/A7 主张须人工裁决后才能改值并签章",
+      "status": "BLOCKED"
+    },
+    {
+      "attachment": "ANN-2",
+      "attachment_value": "CNY",
+      "body_value": "CNY",
+      "clause": "currency",
+      "note": "正文与有效附件一致",
+      "status": "MATCH"
+    },
+    {
+      "attachment": "ANN-2",
+      "attachment_value": null,
+      "body_value": "现场验收",
+      "clause": "acceptance",
+      "note": "验收口径仅在招标正文规定，附件无此列；以有效正文为准",
+      "status": "BODY_ONLY"
+    }
+  ],
+  "input_fingerprint": {
+    "evidence_file": "evidence.json",
+    "evidence_sha256": "10913bf293dbc432719ca88d6c8073355625eb07851b07a869d70b34a787d342",
+    "policy_sha256": "f49fce191ec5854290e0cc9e62653c526dce103a1706de29f17439a5c0b9b66b",
+    "record_references": {
+      "A1": "A1@d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad",
+      "A2": "A2@63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b",
+      "A3": "A3@c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+      "A4": "A4@1856c8220764d32179a3cf30521afcc2d49ffae3271e88f55aee11a565c7647d",
+      "A5": "A5@51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e",
+      "A6": "A6@3fd7a9d89bc1cfde5d71887f4fea0e9e3588724856899fcc7b026f96057d0600",
+      "A7": "A7@181c747a840277423ae1e276ebfe39b7f07188cb0d37bdcc918d17272d429716",
+      "ANN-2": "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+      "Q1": "Q1@c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b",
+      "T0": "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+      "W4": "W4@54da07ed85b2f2cfc00ea4705bda181cc60b6a235ecc8b754a0eb717356ebd5a"
+    }
+  },
+  "merge": {
+    "applied": [
+      {
+        "changes": {
+          "delivery": "45天"
+        },
+        "id": "A1"
+      },
+      {
+        "changes": {
+          "warranty": "24个月"
+        },
+        "id": "A2"
+      },
+      {
+        "attachment_replace": {
+          "ANN-1": "ANN-2"
+        },
+        "id": "A3"
+      }
+    ],
+    "baseline": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "60天",
+      "warranty": "12个月"
+    },
+    "chain": [
+      {
+        "action": "baseline",
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "60天",
+          "warranty": "12个月"
+        },
+        "id": "T0",
+        "step": 0
+      },
+      {
+        "action": "patch",
+        "changes": {
+          "delivery": "45天"
+        },
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "45天",
+          "warranty": "12个月"
+        },
+        "id": "A1",
+        "step": 1
+      },
+      {
+        "action": "patch",
+        "changes": {
+          "warranty": "24个月"
+        },
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "45天",
+          "warranty": "24个月"
+        },
+        "id": "A2",
+        "step": 2
+      },
+      {
+        "action": "attachment_replace",
+        "changes": {
+          "ANN-1": "ANN-2"
+        },
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "45天",
+          "warranty": "24个月"
+        },
+        "id": "A3",
+        "step": 3
+      },
+      {
+        "action": "blocked_by_conflict",
+        "changes": {
+          "A2.warranty": "18个月"
+        },
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "45天",
+          "warranty": "24个月"
+        },
+        "id": "A6",
+        "step": 4
+      },
+      {
+        "action": "blocked_by_conflict",
+        "changes": {
+          "A2.warranty": "30个月"
+        },
+        "clauses": {
+          "acceptance": "现场验收",
+          "currency": "CNY",
+          "delivery": "45天",
+          "warranty": "24个月"
+        },
+        "id": "A7",
+        "step": 5
+      }
+    ],
+    "conflict_targets": [
+      "warranty"
+    ],
+    "diff_vs_t0": {
+      "delivery": {
+        "after": "45天",
+        "before": "60天"
+      },
+      "warranty": {
+        "after": "24个月",
+        "before": "12个月"
+      }
+    },
+    "merged": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "45天",
+      "warranty": "24个月"
+    },
+    "open_conflicts": [
+      {
+        "addenda": [
+          "A6",
+          "A7"
+        ],
+        "block_locations": [
+          "技术响应正文 warranty 字段（门户草稿/修订后响应副本）",
+          "报价附件 warranty 列（修订后附件副本）"
+        ],
+        "claimed_values": {
+          "A6": "18个月",
+          "A7": "30个月"
+        },
+        "effective": "2026-11-10T09:00:00+08:00",
+        "raw_targets": [
+          "A2.warranty"
+        ],
+        "resolution": "同权限、同一生效时点、无明确取代关系：保留冲突，不臆造统一口径",
+        "rule": "R7",
+        "target": "warranty"
+      }
+    ],
+    "referenced_targets": [
+      "A2.warranty",
+      "ANN-1",
+      "T0.delivery",
+      "T0.warranty"
+    ],
+    "skipped": [
+      {
+        "blocked": {
+          "A2.warranty": "18个月"
+        },
+        "id": "A6",
+        "reason": "R7 冲突目标，未经人工裁决不得写入"
+      },
+      {
+        "blocked": {
+          "A2.warranty": "30个月"
+        },
+        "id": "A7",
+        "reason": "R7 冲突目标，未经人工裁决不得写入"
+      }
+    ]
+  },
+  "per_record": [
+    {
+      "category": "补遗",
+      "effect": "按 replaces 明确指向参与归并（R3/R5）",
+      "effective": "2026-11-08T09:00:00+08:00",
+      "id": "A1",
+      "issuer": "HB招标中心",
+      "reason": "授权单位、截止前生效、未被撤回（R1/R2/R4）",
+      "reason_code": "ADDENDUM_VALID",
+      "reference": "A1@d506ba5dd7beb3a5b3ac183b418f7eaf7515ea145779e1188d33efc2326750ad",
+      "status": "effective",
+      "title": "交期补遗"
+    },
+    {
+      "category": "补遗",
+      "effect": "按 replaces 明确指向参与归并（R3/R5）",
+      "effective": "2026-11-09T09:00:00+08:00",
+      "id": "A2",
+      "issuer": "HB招标中心",
+      "reason": "授权单位、截止前生效、未被撤回（R1/R2/R4）",
+      "reason_code": "ADDENDUM_VALID",
+      "reference": "A2@63c9456ddb2547e05a2b2d7ee5e510566817ad1dbd17eb2a96c822e412db0e0b",
+      "status": "effective",
+      "title": "质保修订"
+    },
+    {
+      "category": "补遗",
+      "effect": "按 replaces 明确指向参与归并（R3/R5）",
+      "effective": "2026-11-09T10:00:00+08:00",
+      "id": "A3",
+      "issuer": "HB招标中心",
+      "reason": "授权单位、截止前生效、未被撤回（R1/R2/R4）",
+      "reason_code": "ADDENDUM_VALID",
+      "reference": "A3@c147fc07789cf2242a16a7cb2a478096c7a9bcfbd54499da944ee835cc0ebc80",
+      "status": "effective",
+      "title": "报价附件更正"
+    },
+    {
+      "category": "补遗",
+      "effect": "不产生替代效力；其拟变更的条款维持撤回前的有效口径",
+      "effective": "2026-11-09T11:00:00+08:00",
+      "id": "A4",
+      "issuer": "HB招标中心",
+      "reason": "被 W4 在截止前明确撤回（R4）",
+      "reason_code": "WITHDRAWN",
+      "reference": "A4@1856c8220764d32179a3cf30521afcc2d49ffae3271e88f55aee11a565c7647d",
+      "status": "withdrawn",
+      "title": "验收变更"
+    },
+    {
+      "category": "补遗",
+      "effect": "隔离：截止后才生效的变更不进入本次封版，独立去向并提示负责人后续处理",
+      "effective": "2026-11-11T00:00:00+08:00",
+      "id": "A5",
+      "issuer": "HB招标中心",
+      "reason": "生效时点 2026-11-11T00:00:00+08:00 晚于封版截止 2026-11-10T12:00:00+08:00（R2）",
+      "reason_code": "AFTER_CUTOFF_CHANGE",
+      "reference": "A5@51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e",
+      "status": "quarantine",
+      "title": "后续币种修订"
+    },
+    {
+      "category": "补遗",
+      "effect": "按 replaces 明确指向参与归并（R3/R5）",
+      "effective": "2026-11-10T09:00:00+08:00",
+      "id": "A6",
+      "issuer": "HB招标中心",
+      "reason": "授权单位、截止前生效、未被撤回（R1/R2/R4）",
+      "reason_code": "ADDENDUM_VALID",
+      "reference": "A6@3fd7a9d89bc1cfde5d71887f4fea0e9e3588724856899fcc7b026f96057d0600",
+      "status": "effective",
+      "title": "质保附件说明甲"
+    },
+    {
+      "category": "补遗",
+      "effect": "按 replaces 明确指向参与归并（R3/R5）",
+      "effective": "2026-11-10T09:00:00+08:00",
+      "id": "A7",
+      "issuer": "HB招标中心",
+      "reason": "授权单位、截止前生效、未被撤回（R1/R2/R4）",
+      "reason_code": "ADDENDUM_VALID",
+      "reference": "A7@181c747a840277423ae1e276ebfe39b7f07188cb0d37bdcc918d17272d429716",
+      "status": "effective",
+      "title": "质保附件说明乙"
+    },
+    {
+      "category": "附件",
+      "effect": "作为候选附件留档，是否启用取决于补遗的明确替代关系",
+      "effective": null,
+      "id": "ANN-2",
+      "issuer": null,
+      "reason": "附件独立编号，本身不替代正文条款；须由补遗明确指向才更换（R6）",
+      "reason_code": "ATTACHMENT_STANDALONE",
+      "reference": "ANN-2@43648c141765f2599da0e3857dd05611ce99bbdd1865db37dba8679f677ce24f",
+      "status": "attachment",
+      "title": "新报价附件"
+    },
+    {
+      "category": "问答",
+      "effect": "隔离：不采信其条款，留档备查，不进入封版口径",
+      "effective": null,
+      "id": "Q1",
+      "issuer": "供货商助理",
+      "reason": "发文单位 供货商助理 非 HB招标中心；未盖章问答不产生替代效力（R1）",
+      "reason_code": "UNAUTHORIZED",
+      "reference": "Q1@c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b",
+      "status": "quarantine",
+      "title": "供应商交期答复"
+    },
+    {
+      "category": "招标",
+      "effect": "基线：其条款在被有效且明确的替代前持续有效",
+      "effective": "2026-10-20T09:00:00+08:00",
+      "id": "T0",
+      "issuer": "HB招标中心",
+      "reason": "授权单位正式招标文件，构成基线条款（R1/R3）",
+      "reason_code": "BASELINE_TENDER",
+      "reference": "T0@40fb7daa253955f24cc7d96090110073e5da51773a3597651a86bb9001095e4f",
+      "status": "baseline",
+      "title": "正式条款"
+    },
+    {
+      "category": "撤回",
+      "effect": "撤回生效：A4 自 2026-11-10T08:00:00+08:00 起不产生替代效力",
+      "effective": "2026-11-10T08:00:00+08:00",
+      "id": "W4",
+      "issuer": "HB招标中心",
+      "reason": "授权单位在截止前撤回，明确指向 A4（R4）",
+      "reason_code": "WITHDRAWAL_VALID",
+      "reference": "W4@54da07ed85b2f2cfc00ea4705bda181cc60b6a235ecc8b754a0eb717356ebd5a",
+      "status": "effective",
+      "title": "验收补遗撤回"
+    }
+  ],
+  "policy_rules": [
+    "R1 正式发文单位唯一：仅 HB招标中心 的来文具备替代效力；供应商沟通、未盖章问答不产生替代效力（policy.md）。",
+    "R2 内部封版截止 2026-11-10T12:00:00+08:00：生效时点晚于该时刻的变更不得进入封版口径，进独立去向（policy.md）。",
+    "R3 按生效时点与明确替代关系处理，不按上传/下载顺序或文件修改时间全序覆盖（policy.md）。",
+    "R4 撤回只作用于明确目标（target）；被撤回的来文自撤回生效时起不产生替代效力（policy.md）。",
+    "R5 一份来文只替代其 replaces 中明确指向的条款/附件，不覆盖未提到的附件或条款（policy.md）。",
+    "R6 附件独立编号，正文变更不自动替代附件；附件更换须有明确指向（policy.md）。",
+    "R7 同权限、无明确取代关系的冲突保留并标记，由人工裁决，不得臆造统一口径（policy.md）。",
+    "R8 禁止自动签章或投递；草稿恒为待人工审批（policy.md / 门户接口）。"
+  ],
+  "project": "HB-26",
+  "quarantine": [
+    {
+      "category": "补遗",
+      "effect": "隔离：截止后才生效的变更不进入本次封版，独立去向并提示负责人后续处理",
+      "effective": "2026-11-11T00:00:00+08:00",
+      "id": "A5",
+      "issuer": "HB招标中心",
+      "reason": "生效时点 2026-11-11T00:00:00+08:00 晚于封版截止 2026-11-10T12:00:00+08:00（R2）",
+      "reason_code": "AFTER_CUTOFF_CHANGE",
+      "reference": "A5@51671bca03716b6a51a00ac3865f896e3e2686de4ce221aa5b9b743c2cdbc27e",
+      "status": "quarantine",
+      "title": "后续币种修订"
+    },
+    {
+      "category": "问答",
+      "effect": "隔离：不采信其条款，留档备查，不进入封版口径",
+      "effective": null,
+      "id": "Q1",
+      "issuer": "供货商助理",
+      "reason": "发文单位 供货商助理 非 HB招标中心；未盖章问答不产生替代效力（R1）",
+      "reason_code": "UNAUTHORIZED",
+      "reference": "Q1@c82689c39166f790c5f428785df3dabfbf5aa4c5dcd2ff3bd0ee647e53bb730b",
+      "status": "quarantine",
+      "title": "供应商交期答复"
+    }
+  ],
+  "seal_cutoff": "2026-11-10T12:00:00+08:00",
+  "seal_decision": {
+    "active_attachment": "ANN-2",
+    "block_reasons": [
+      {
+        "at": "技术响应正文 warranty 字段（门户草稿/修订后响应副本）",
+        "conflict": {
+          "A6": "18个月",
+          "A7": "30个月"
+        },
+        "target": "warranty"
+      },
+      {
+        "at": "报价附件 warranty 列（修订后附件副本）",
+        "conflict": {
+          "A6": "18个月",
+          "A7": "30个月"
+        },
+        "target": "warranty"
+      }
+    ],
+    "blocked": true,
+    "confirmed_clauses": {
+      "acceptance": "现场验收",
+      "currency": "CNY",
+      "delivery": "45天"
+    },
+    "may_seal": false,
+    "note": "存在同权限未决冲突，阻止封版；须由投标负责人人工裁决后签章，系统不自动签章/投递（R7/R8）",
+    "unconfirmed_clauses": [
+      "warranty"
+    ]
+  },
+  "withdrawals": {
+    "A4": "W4"
+  }
+}
